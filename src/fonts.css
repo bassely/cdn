@@ -23,6 +23,17 @@
 }
 @font-face {
     font-family: 'Avenir';
+    font-style: bold;
+    font-weight: 400;
+    src: url('https://cdn-9io.pages.dev/src/fonts/AvenirLTStd-Roman.eot');
+    src: url('https://cdn-9io.pages.dev/src/fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn-9io.pages.dev/src/fonts/AvenirLTStd-Roman.woff2') format('woff2'),
+         url('https://cdn-9io.pages.dev/src/fonts/AvenirLTStd-Roman.woff') format('woff'),
+         url('https://cdn-9io.pages.dev/src/fonts/AvenirLTStd-Roman.ttf')  format('truetype'),
+         url('https://cdn-9io.pages.dev/src/fonts/AvenirLTStd-Roman.svg#Avenir LT Std') format('svg');
+}
+@font-face {
+    font-family: 'Avenir';
     font-style: normal;
     font-weight: 500;
     src: url('https://cdn-9io.pages.dev/src/fonts/AvenirLTStd-Roman.eot');
