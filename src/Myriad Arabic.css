@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Myriad Arabic';
+    src: url('fonts/Myriad-Arabic-Regular.eot');
+    src: url('fonts/Myriad-Arabic-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Myriad-Arabic-Regular.woff2') format('woff2'),
+         url('fonts/Myriad-Arabic-Regular.woff') format('woff'),
+         url('fonts/Myriad-Arabic-Regular.ttf')  format('truetype'),
+         url('fonts/Myriad-Arabic-Regular.svg#Myriad Arabic') format('svg');
+}
