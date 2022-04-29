@@ -86,10 +86,32 @@
 
 @font-face {
     font-family: 'Myriad Arabic';
+    font-weight: 400;
+    font-style: normal;    
     src: url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Regular.eot');
     src: url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Regular.eot?#iefix') format('embedded-opentype'),
          url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Regular.woff2') format('woff2'),
          url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Regular.woff') format('woff'),
          url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Regular.ttf')  format('truetype'),
          url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Regular.svg#Myriad Arabic') format('svg');
+}
+@font-face {
+    font-family: 'Myriad Arabic';
+    font-weight: 800;    
+    src: url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.eot');
+    src: url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.woff2') format('woff2'),
+         url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.woff') format('woff'),
+         url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.ttf')  format('truetype'),
+         url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.svg#Myriad Arabic') format('svg');
+}
+@font-face {
+    font-family: 'Myriad Arabic';
+    font-weight: 700;
+    src: url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.eot');
+    src: url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.woff2') format('woff2'),
+         url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.woff') format('woff'),
+         url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.ttf')  format('truetype'),
+         url('https://cdn-9io.pages.dev/src/fonts/Myriad-Arabic-Bold.svg#Myriad Arabic') format('svg');
 }
