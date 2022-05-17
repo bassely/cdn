@@ -28,15 +28,27 @@
 
   gtag('config', 'G-0T7604HF1C');
 </script>
+<style>
+    .only-desktop{display:inline-table;}
+      .only-mobile {display: none;}
+    /* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)  
+  and (orientation: portrait) {
+      .only-desktop{display:none}
+      .only-mobile {display: inline-table;}
+}
+</style>
 </head>
 <body style="margin:0;padding:0;">
 
     <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#eee; direction: rtl;" dir="rtl">
-         <tr>
+       <!--   <tr>
                         <td align="center" style="padding:0;padding:0px;">
                             <p style="font-size:22px">لديك مشكلة في عرض هذه الرسالة الإلكترونية، الرجاء <a href="https://cdn-9io.pages.dev/src/email1ar" target="_blank">الضغط هنا</a></p>
                         </td>
-         </tr>
+         </tr> -->
                 
         <tr> 
             <td align="center" style="padding:0; background-image: url(https://cdn-9io.pages.dev/src/images/bg_email.png); background-position: center top; background-repeat: repeat-y" >
@@ -113,7 +125,7 @@
                             <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0; margin-bottom: 15px; margin-top: 15px; direction: rtl;">
                             <tr>
                                 <td align="center" style="padding: 0px;padding-left: 30px; padding-right: 30px;">
-                                   <table ole="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                                   <table ole="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;" class="only-desktop">
                                        <tr>
                                            <td align="center"><img src="https://cdn-9io.pages.dev/src/images/assets/promotion4.png" style="display:block; width:100%;border:0" /> </td>
                                            <td align="center"><img src="https://cdn-9io.pages.dev/src/images/assets/promotion2.png" style="display:block; width:100%;border:0" /> </td>
@@ -125,6 +137,23 @@
                                 </td>               
                             </tr>   
                             </table>           
+                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0; margin-bottom: 15px; margin-top: 15px; direction: rtl;">
+                                <tr>
+                                    <td align="center" style="padding: 0px;padding-left: 30px; padding-right: 30px;">
+                                       <table ole="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;" class="only-mobile">
+                                           <tr>
+                                               <td align="center"><img src="https://cdn-9io.pages.dev/src/images/assets/promotion4.png" style="display:block; width:100%;border:0" /> </td>
+                                               <td align="center"><img src="https://cdn-9io.pages.dev/src/images/assets/promotion2.png" style="display:block; width:100%;border:0" /> </td>
+                                           </tr>
+                                           <tr>
+                                               <td align="center"><img src="https://cdn-9io.pages.dev/src/images/assets/promotion1.png" style="display:block; width:100%;border:0" /> </td>
+                                               <td align="center"><img src="https://cdn-9io.pages.dev/src/images/assets/promotion3.png" style="display:block; width:100%;border:0" /> </td>
+                                           </tr>
+                                       </table>
+    
+                                    </td>               
+                                </tr>   
+                                </table>          
                         </td>
                     </tr>
                     <tr>
