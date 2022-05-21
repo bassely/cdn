@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "browser-sync start --server --files '**/*'"
+    "test": "browser-sync start --server --files './src/*.*'"
   },
   "author": "",
   "license": "ISC",
