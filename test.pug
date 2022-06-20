@@ -1,0 +1,36 @@
+doctype html
+html(lang='en', xmlns='http://www.w3.org/1999/xhtml', xmlns:o='urn:schemas-microsoft-com:office:office')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width')
+        meta(name='x-apple-disable-message-reformatting')
+        title
+        //if mso
+            noscript
+            xml
+                o:officedocumentsettings
+                o:pixelsperinch 96
+        style.
+            @import url('https://cdn-9io.pages.dev/src/fonts.css');
+            table, td, div, h1, p {font-family: Avenir, sans-serif;}
+        // Global site tag (gtag.js) - Google Analytics
+        script(async='', src='https://www.googletagmanager.com/gtag/js?id=G-0T7604HF1C')
+        script.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-0T7604HF1C');
+        style.
+            .only-desktop{display:inline-table;}
+            .only-mobile {display: none;}
+            /* Portrait */
+            @media only screen
+            and (min-device-width: 320px)
+            and (max-device-width: 480px)
+            and (orientation: portrait)
+            {
+            .only-desktop{display:none}
+            .only-mobile {display: inline-table;}
+            }      
+    body
+        include mixins/footer.pug
